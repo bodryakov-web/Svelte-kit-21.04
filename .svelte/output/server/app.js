@@ -1457,7 +1457,7 @@ function tryDecode(str, decode2) {
     return str;
   }
 }
-var F__Sites_gtkAgilitySveltekit_21_04_21_Local_myApp_node_modules_cookie = {
+var F__Sites_SvelteKit____21_04___________________________________________________myApp_node_modules_cookie = {
   parse: parse_1,
   serialize: serialize_1
 };
@@ -1487,7 +1487,7 @@ function v4() {
   return out;
 }
 const getContext = (request) => {
-  const cookies = F__Sites_gtkAgilitySveltekit_21_04_21_Local_myApp_node_modules_cookie.parse(request.headers.cookie || "");
+  const cookies = F__Sites_SvelteKit____21_04___________________________________________________myApp_node_modules_cookie.parse(request.headers.cookie || "");
   return {
     is_new: !cookies.userid,
     userid: cookies.userid || v4()
@@ -1525,9 +1525,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-bb9dfd54.js",
+      file: "/./_app/start-32b14a9f.js",
       css: ["/./_app/assets/start-a8cd1609.css"],
-      js: ["/./_app/start-bb9dfd54.js", "/./_app/chunks/index-5ad3f4d4.js", "/./_app/chunks/index-d31526ba.js"]
+      js: ["/./_app/start-32b14a9f.js", "/./_app/chunks/index-5ad3f4d4.js", "/./_app/chunks/index-d31526ba.js"]
     },
     fetched: void 0,
     get_component_path: (id) => "/./_app/" + entry_lookup[id],
@@ -1628,7 +1628,7 @@ const module_lookup = {
     return two;
   })
 };
-const metadata_lookup = {"src/routes/$layout.svelte": {entry: "/./_app/pages/$layout.svelte-97f8ecf9.js", css: ["/./_app/assets/pages/$layout.svelte-668ef4e9.css"], js: ["/./_app/pages/$layout.svelte-97f8ecf9.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, ".svelte/build/components/error.svelte": {entry: "/./_app/error.svelte-29870206.js", css: [], js: ["/./_app/error.svelte-29870206.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/index.svelte": {entry: "/./_app/pages/index.svelte-7b14c95b.js", css: ["/./_app/assets/pages/index.svelte-3e658545.css"], js: ["/./_app/pages/index.svelte-7b14c95b.js", "/./_app/chunks/index-5ad3f4d4.js", "/./_app/chunks/index-d31526ba.js"], styles: null}, "src/routes/about.svelte": {entry: "/./_app/pages/about.svelte-87d26f87.js", css: ["/./_app/assets/pages/about.svelte-4db5be0d.css"], js: ["/./_app/pages/about.svelte-87d26f87.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/todos/index.svelte": {entry: "/./_app/pages/todos/index.svelte-cda9a0dc.js", css: ["/./_app/assets/pages/todos/index.svelte-d4098fcc.css"], js: ["/./_app/pages/todos/index.svelte-cda9a0dc.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/two.svelte": {entry: "/./_app/pages/two.svelte-1d338382.js", css: ["/./_app/assets/pages/about.svelte-4db5be0d.css"], js: ["/./_app/pages/two.svelte-1d338382.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}};
+const metadata_lookup = {"src/routes/$layout.svelte": {entry: "/./_app/pages/$layout.svelte-5fa25ada.js", css: ["/./_app/assets/pages/$layout.svelte-668ef4e9.css"], js: ["/./_app/pages/$layout.svelte-5fa25ada.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, ".svelte/build/components/error.svelte": {entry: "/./_app/error.svelte-79e810d4.js", css: [], js: ["/./_app/error.svelte-79e810d4.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/index.svelte": {entry: "/./_app/pages/index.svelte-3b6e6033.js", css: ["/./_app/assets/pages/index.svelte-a6866bc0.css"], js: ["/./_app/pages/index.svelte-3b6e6033.js", "/./_app/chunks/index-5ad3f4d4.js", "/./_app/chunks/index-d31526ba.js"], styles: null}, "src/routes/about.svelte": {entry: "/./_app/pages/about.svelte-3b5ba2a0.js", css: ["/./_app/assets/pages/about.svelte-4db5be0d.css"], js: ["/./_app/pages/about.svelte-3b5ba2a0.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/todos/index.svelte": {entry: "/./_app/pages/todos/index.svelte-675017bf.js", css: ["/./_app/assets/pages/todos/index.svelte-d4098fcc.css"], js: ["/./_app/pages/todos/index.svelte-675017bf.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}, "src/routes/two.svelte": {entry: "/./_app/pages/two.svelte-843cd53d.js", css: ["/./_app/assets/pages/about.svelte-4db5be0d.css"], js: ["/./_app/pages/two.svelte-843cd53d.js", "/./_app/chunks/index-5ad3f4d4.js"], styles: null}};
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -1967,20 +1967,17 @@ const Counter = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		<svg role="${"img"}" aria-label="${"Plus"}" viewBox="${"0 0 1 1"}" class="${"svelte-12cun9x"}"><path d="${"M0,0.5 L1,0.5 M0.5,0 L0.5,1"}" class="${"svelte-12cun9x"}"></path></svg></button>
 </div>`;
 });
-var index_svelte_svelte_type_style_lang$1 = "section.svelte-mjk9ig.svelte-mjk9ig{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-mjk9ig.svelte-mjk9ig{width:100%}.welcome.svelte-mjk9ig.svelte-mjk9ig{position:relative;width:100%;height:0;padding:0 0 calc(100% * 495 / 2048) 0}.welcome.svelte-mjk9ig img.svelte-mjk9ig{position:absolute;width:100%;height:100%;top:0;display:block}";
+var index_svelte_svelte_type_style_lang$1 = "section.svelte-mjk9ig{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-mjk9ig{width:100%}";
 const css$3 = {
-  code: "section.svelte-mjk9ig.svelte-mjk9ig{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-mjk9ig.svelte-mjk9ig{width:100%}.welcome.svelte-mjk9ig.svelte-mjk9ig{position:relative;width:100%;height:0;padding:0 0 calc(100% * 495 / 2048) 0}.welcome.svelte-mjk9ig img.svelte-mjk9ig{position:absolute;width:100%;height:100%;top:0;display:block}",
-  map: `{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n\\texport const prerender = true;\\n</script>\\n\\n<script>\\n\\timport Counter from '$lib/Counter/index.svelte';\\n</script>\\n\\n<svelte:head>\\n\\t<title>Home</title>\\n</svelte:head>\\n\\n<section>\\n\\t<h1>\\n\\t\\t<div class=\\"welcome\\">\\n\\t\\t\\t<picture>\\n\\t\\t\\t\\t<source srcset=\\"svelte-welcome.webp\\" type=\\"image/webp\\">\\n\\t\\t\\t\\t<img src=\\"svelte-welcome.png\\" alt=\\"Welcome\\"/>\\n\\t\\t\\t</picture>\\n\\t\\t</div>\\n\\n\\t\\tto your new<br />SvelteKit app\\n\\t</h1>\\n\\n\\t<h2>\\n\\t\\ttry editing <strong>src/routes/index.svelte</strong>\\n\\t</h2>\\n\\n\\t<Counter />\\n</section>\\n\\n<style>\\n\\tsection {\\n\\t\\tdisplay: flex;\\n\\t\\tflex-direction: column;\\n\\t\\tjustify-content: center;\\n\\t\\talign-items: center;\\n\\t\\tflex: 1;\\n\\t}\\n\\n\\th1 {\\n\\t\\twidth: 100%;\\n\\t}\\n\\n\\t.welcome {\\n\\t\\tposition: relative;\\n\\t\\twidth: 100%;\\n\\t\\theight: 0;\\n\\t\\tpadding: 0 0 calc(100% * 495 / 2048) 0;\\n\\t}\\n\\n\\t.welcome img {\\n\\t\\tposition: absolute;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\ttop: 0;\\n\\t\\tdisplay: block;\\n\\t}\\n</style>\\n"],"names":[],"mappings":"AAgCC,OAAO,4BAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,IAAI,CAAE,CAAC,AACR,CAAC,AAED,EAAE,4BAAC,CAAC,AACH,KAAK,CAAE,IAAI,AACZ,CAAC,AAED,QAAQ,4BAAC,CAAC,AACT,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAAC,CAAC,CAAC,KAAK,IAAI,CAAC,CAAC,CAAC,GAAG,CAAC,CAAC,CAAC,IAAI,CAAC,CAAC,CAAC,AACvC,CAAC,AAED,sBAAQ,CAAC,GAAG,cAAC,CAAC,AACb,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,GAAG,CAAE,CAAC,CACN,OAAO,CAAE,KAAK,AACf,CAAC"}`
+  code: "section.svelte-mjk9ig{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}h1.svelte-mjk9ig{width:100%}",
+  map: `{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n\\texport const prerender = true;\\n</script>\\n\\n<script>\\n\\timport Counter from '$lib/Counter/index.svelte';\\n</script>\\n\\n<svelte:head>\\n\\t<title>\u0413\u043B\u0430\u0432\u043D\u0430\u044F</title>\\n</svelte:head>\\n\\n<section>\\n\\t<h1>\\n\u0413\u043B\u0430\u0432\u043D\u0430\u044F\\n\\t</h1>\\n\\n\\t<h2>\\n\\t\\ttry editing <strong>src/routes/index.svelte</strong>\\n\\t</h2>\\n\\n\\t<Counter />\\n</section>\\n\\n<style>\\n\\tsection {\\n\\t\\tdisplay: flex;\\n\\t\\tflex-direction: column;\\n\\t\\tjustify-content: center;\\n\\t\\talign-items: center;\\n\\t\\tflex: 1;\\n\\t}\\n\\n\\th1 {\\n\\t\\twidth: 100%;\\n\\t}\\n\\n\\t.welcome {\\n\\t\\tposition: relative;\\n\\t\\twidth: 100%;\\n\\t\\theight: 0;\\n\\t\\tpadding: 0 0 calc(100% * 495 / 2048) 0;\\n\\t}\\n\\n\\t.welcome img {\\n\\t\\tposition: absolute;\\n\\t\\twidth: 100%;\\n\\t\\theight: 100%;\\n\\t\\ttop: 0;\\n\\t\\tdisplay: block;\\n\\t}\\n</style>\\n"],"names":[],"mappings":"AAyBC,OAAO,cAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,IAAI,CAAE,CAAC,AACR,CAAC,AAED,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,IAAI,AACZ,CAAC"}`
 };
 const prerender$1 = true;
 const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$3);
-  return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
+  return `${$$result.head += `${$$result.title = `<title>\u0413\u043B\u0430\u0432\u043D\u0430\u044F</title>`, ""}`, ""}
 
-<section class="${"svelte-mjk9ig"}"><h1 class="${"svelte-mjk9ig"}"><div class="${"welcome svelte-mjk9ig"}"><picture><source srcset="${"svelte-welcome.webp"}" type="${"image/webp"}">
-				<img src="${"svelte-welcome.png"}" alt="${"Welcome"}" class="${"svelte-mjk9ig"}"></picture></div>
-
-		to your new<br>SvelteKit app
+<section class="${"svelte-mjk9ig"}"><h1 class="${"svelte-mjk9ig"}">\u0413\u043B\u0430\u0432\u043D\u0430\u044F
 	</h1>
 
 	<h2>try editing <strong>src/routes/index.svelte</strong></h2>
